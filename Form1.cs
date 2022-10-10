@@ -11,30 +11,30 @@ using System.Windows.Forms;
 namespace checkers
 {   //mapSize-размер карты
 
-    public class Car
-    {
-        Color Color;
-        int Mass;
-        int Type;
-        int doorCount;
-        int Speed;
+ //   public class Car
+ //   {
+ //       Color Color;
+ //       int Mass;
+ //       int Type;
+ //       int doorCount;
+ //       int Speed;
 
- public bool door1IsClose=true, door2IsClose=true, door3IsClose=true;
-        public void Move()
-        {
+ //public bool door1IsClose=true, door2IsClose=true, door3IsClose=true;
+ //       public void Move()
+ //       {
 
-        }
+ //       }
 
-        public bool IsCarClose()
-        {
+ //       public bool IsCarClose()
+ //       {
           
-            if (door1IsClose == true && door2IsClose == true && door3IsClose == true)
-                return true;
-            else
-            return 
-                    false;
-        }
-    }
+ //           if (door1IsClose == true && door2IsClose == true && door3IsClose == true)
+ //               return true;
+ //           else
+ //           return 
+ //                   false;
+ //       }
+ //   }
 
     /// <summary>
     /// Представляет игровую клетку
@@ -120,9 +120,9 @@ namespace checkers
             //};
 
             // map2 = new int[mapSize, mapSize]
-            Car m1 = new Car();
+            //Car m1 = new Car();
 
-            m1.IsCarClose(); // true
+            //m1.IsCarClose(); // true
             CreateMap();
         }
 
